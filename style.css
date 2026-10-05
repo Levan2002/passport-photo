@@ -6,3 +6,18 @@ h1{font-size:34px;line-height:1.15;margin:0 0 8px}h2{font-size:22px;margin:36px 
 p,li{color:var(--fg)}.muted{color:var(--muted)}a{color:var(--accent)}
 .card{background:var(--card);border-radius:16px;padding:18px 20px;margin:16px 0}
 header img{width:72px;height:72px;border-radius:16px}
+/* guides */
+.topbar{display:flex;align-items:center;gap:12px;max-width:720px;margin:0 auto;padding:20px 20px 0}
+.topbar img{width:40px;height:40px;border-radius:10px}
+.topbar a{color:var(--fg);font-weight:700;text-decoration:none}
+.crumbs{font-size:14px;color:var(--muted);margin:0 0 20px}.crumbs a{color:var(--muted)}
+.lead{font-size:19px;color:var(--muted)}
+.cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:999px;margin:4px 0}
+@media (prefers-color-scheme:dark){.cta{color:#000}}
+.cta-end{margin-top:32px}
+article h3{font-size:18px;margin:24px 0 6px}
+article ul,article ol{padding-left:22px}article li{margin:6px 0}
+.guide-list{list-style:none;padding:0;margin:20px 0}.guide-list li{margin:12px 0}.guide-list a{text-decoration:none}
+.foot{margin-top:0}.foot main{padding:0 20px 40px;font-size:14px}
+h1,h2{overflow-wrap:break-word}
+@media (max-width:520px){h1{font-size:28px}}
